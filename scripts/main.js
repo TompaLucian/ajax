@@ -22,6 +22,7 @@ function loadMovies(movies) {
         body = body + getCard(movies[i])
 
         cellCounter++;
+        
     }
 
   
@@ -73,10 +74,7 @@ function loadMovie(movie) {
 
   
     let tableBody = document.getElementById("movie-details");
-    tableBody.innerHTML = movieHTML;
-    
-    // let movieTitle = document.getElementById("movie-title")
-    // movieTitle.innerHTML = movieHTML;
+    tableBody.innerHTML = movieHTML;    
 }
 
 
@@ -84,7 +82,7 @@ function loadMovie(movie) {
 loadMovieDetails();
 
 let result = document.getElementById("result");
-let mine = document.getElementById("range");
+let range = document.getElementById("range");
 function change(){
     result.innerHTML = range.value;
 }

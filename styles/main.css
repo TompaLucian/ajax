@@ -3,7 +3,33 @@
   }
 
 .body {
-    background-color: lightslategray;
+    background-image: url(https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=856&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.add-body {
+    background-image: url(https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.add-title{
+   color: rgba(255, 255, 255, 0.274);
+}
+
+.form {
+    color: rgba(4, 138, 64, 0.877);
+    font-weight: bold;
+}
+
+.legend {
+    color:  rgba(255, 255, 255, 0.274);
+}
+.movie-details {
+
 }
 
 .movie-table {
@@ -12,13 +38,8 @@
 
 .table-data {
     float: left;
-  width: 33.33%;
-  padding: 10px;
-  height: 300px;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
 }
 
-.movie-info {
-    display: flex;
-    align-items: grid;
-    padding-bottom: 20px;
-}

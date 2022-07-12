@@ -9,11 +9,11 @@
     <script src="scripts/main.js" defer ></script>
 
   </head>
-  <body>
-    <h1>Add a new movie</h1>
-      <form action="post">
+  <body class="add-body">
+    <h1 class="add-title">Add a new movie</h1>
+      <form action="post" class="form">
         <fieldset>
-            <legend>Insert the movie details</legend>
+            <legend class="legend">Insert the movie details</legend>
           <div>
             <input type="text" name="title" placeholder="Movie Title">
           </div>
@@ -24,9 +24,10 @@
             <input type="url" name="poster" placeholder="Paste your image link here">
           </div>
           <div>
-            <label for="range">
-              Movie rating: 
-            </label>
+            <div>
+              Select the movie rating:
+              <label id="result"></label> 
+            </div>
           </div>
           <div>
             <input type="range" id="range" min="0" max="10" value="8" step="0.1" onchange="change()">
