@@ -55,16 +55,28 @@ function loadMovieDetails() {
 }
 
 function loadMovie(movie) {
-    let movieHTML = '<td>'
-    + '<img src="' + movie.poster + '" alt="HTML" style="width:100px;height:100px;"></a>'
+    let movieHTML = '<td class ="movie-info">'
+    + '<img src="' + movie.poster + '" alt="HTML" style="width:100px;height:100px;" class="movie-img">'
     + '<br>'
-    + movie.title + '</td>';
+    + 'Title: ' + movie.title 
+    + '<br>'
+    + 'Genre: ' + movie.genre
+    + '<br>'
+    + 'Director: ' + movie.director
+    + '<br>'
+    + 'Plot: ' + movie.plot
+    + '<br>'
+    + 'Ratings:' + movie.ratings[1]
+    + '</td>';
 
 
 
   
     let tableBody = document.getElementById("movie-details");
-    tableBody.innerHTML = movieHTML;     
+    tableBody.innerHTML = movieHTML;
+    
+    // let movieTitle = document.getElementById("movie-title")
+    // movieTitle.innerHTML = movieHTML;
 }
 
 
