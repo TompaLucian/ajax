@@ -21,7 +21,40 @@
             <input type="director" name="director" placeholder="Director Name">
           </div>
           <div>
-            <iinput type="image" src=""  name="poster">
+            <input type="url" name="poster" placeholder="Paste your image link here">
+          </div>
+          <div>
+            <label for="range">
+              Movie rating: 
+            </label>
+          </div>
+          <div>
+            <input type="range" id="range" min="0" max="10" value="8" step="0.1" onchange="change()">
+          </div>
+          <div>
+            <label for="genre">Select the movie genre:</label>
+            <select name="genre" id="genre">
+              <option value="action">action</option>
+              <option value="adventure">adventure</option>
+              <option value="comedy">comedy</option>
+              <option value="crime">crime</option>
+              <option value="documentary">documentary</option>
+              <option value="drama">drama</option>
+              <option value="family">family</option>
+              <option value="fantasy">fantasy</option>
+              <option value="horror">horror</option>
+              <option value="music">music</option>
+              <option value="musical">musical</option>
+              <option value="sci-fi">sci-fi</option>
+              <option value="thriller">thriller</option>
+              <option value="western">western</option>
+            </select>
+          </div>
+          <div>
+            <div>
+              Movie plot:
+            </div>              
+            <textarea name="plot" id="" cols="30" rows="10" placeholder="Enter the movie description here"></textarea>
           </div>
           <button type="submit">Save movie</button>
 

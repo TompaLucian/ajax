@@ -83,3 +83,8 @@ function loadMovie(movie) {
     
 loadMovieDetails();
 
+let result = document.getElementById("result");
+let mine = document.getElementById("range");
+function change(){
+    result.innerHTML = range.value;
+}
