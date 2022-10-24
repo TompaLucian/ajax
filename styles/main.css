@@ -20,6 +20,15 @@
    color: rgba(255, 255, 255, 0.274);
 }
 
+.detail-body {
+    background-color: rgb(48, 138, 108);
+    /* background-image: url(https://images.easytechjunkie.com/movie-theater.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+   
+}
+
 .form {
     color: rgba(4, 138, 64, 0.877);
     font-weight: bold;
